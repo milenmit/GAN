@@ -10,10 +10,10 @@ When The user enters <firstName> in the first name field
       And Clicks register now button
       Then The error message is displayed
 
-Note : i assume that the server will return only the first error hit.
+Note : i assume that the server will return only the first error hit. Also that only First name and password are required for create user.
 
     homepage  |  firstName  |  password | Error message
-       	      |  Milen      |  Test     | Password should be at least 6 symbols
+       	    |  Milen      |  Test     | Password should be at least 6 symbols
               |  Milen      |  Test123  | Password should contain at least one special symbol.
               |  Milen      |  Testt!   | Password should contain at least one number.
               
