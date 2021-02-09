@@ -51,7 +51,7 @@ public class DemoSite {
  
         wait.until(ExpectedConditions.visibilityOfElementLocated(dobErrorLocator));
         String doberror = driver.findElement(dobErrorLocator).getText();
-        assertEquals("This1 field is required", doberror);
+        assertEquals("This field is required", doberror);
  
     }
  
